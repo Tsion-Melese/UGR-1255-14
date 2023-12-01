@@ -4,113 +4,150 @@
 <head>
     <meta charset="UTF-8">
     <title>Tsion Melese Profile</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
+  <div class="about-container">
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    
-    <a href="#Edu">Education ,</a>
-    <a href="#Elective"> Electives ,</a>
-    <a href="#Achievement">Achievements</a></header>
-    <main>
-        <h1> Education</h1>
-        <section id="Edu">
-            <h2>Education</h2>
-            <section>
-            <img src="images/download(3).jpg" alt="Omega school" width="200" height="150">
-            <h3>Primary Education: Omega Primary School, Addis Ababa, Ethiopia</h3>
-            <ul>
-            <li><strong>Graduation Year:</strong><time datetime="2017">2017 </time>GC </li>
-            </ul>
-            <h3>Secondary Education: Omega Secondary School, Addis Ababa, Ethiopia</h3>
-            <ul>
-                <li><strong>Graduation Year:</strong> <time datetime="2021">2021 </time>GC</li>
-            </ul>
-            </section>
-            <section>
-            <img src="images/download(4).jpg" alt="Omega school" width="200" height="150">
-            <h3>Current Univeristy: <abbr title="AAiT">Addis Ababa Institute of Technology</abbr> </h3>
-            <ul>
-                <li><strong>Major:</strong> Software Engineering</li>
-                <li><strong>Expected Graduation Date:</strong><time datetime="2025">2025 </time>GC </li>
-            </ul>
-            </section>
-       </section>
-       <section id="Elective">
-        <h2>Electives</h2>
-        
-            <div><ul>
-                <li><strong>Hackathon</strong>
-        <ul>
-            <li><img src= "images/1630626163261.jpg" alt="Bits College" width="200" height="150"> </li>
-            <li><strong>Institute:</strong> Bits College</li>
-            <li><strong>Completion Year:</strong> <time datetime="2023">2023 </time>GC</li>
-        </ul> </li> </ul></div>
-        <div>
-            <ul>
-            <li><strong>Photography</strong>
-        <ul>
-            <li><img src="images/1634494196-52-tom-videographer-photography-training-center.jpg" alt="Tom training center" width="200" height="150">  </li>
-            <li><strong>Institute:</strong> Tom training center, Addis Abeba ,Ethiopia</li>
-            <li><strong>Completion Year:</strong> 2022</li>
-        </ul></li> </ul></div>
-        <div><ul>
-
-        <li><strong>Graphics Design</strong>
-        <ul>
-            <li><img src="images/download(5).jpg" alt="Graphics design" width="200" height="150">  </li>
-            <li><strong>Institute:</strong> Inlight Acadamy, Addis Abeba, Ethiopia</li>
-            <li><strong>Completion Year:</strong> <time datetime="2021">2021 </time>GC</li>
-        </ul></li> </ul></div>
-        
-    
-       </section>
-       <section id="Achievement">
-        <h2>Achievements in Education</h2>
+        <header>
        
-       <div>
-       <ul>
-        <li><strong>Innovation and Creativity Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Mobile robot</li>
-            <li><strong>Year:</strong><time datetime="2019">2019 </time>GC </li>
-        </ul></li></ul></div>
-       <div>
-        <ul>
+            <div class="header">
+                <div class="logo">
+                    <img src="images/Screenshot2023-11-28172206.png" alt="Logo">
+                </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                </label>
+            <div class="menu-items">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li><a href="Hobbies.html">Hobbies</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+          </nav>
+        </header>
 
-        <li><strong>Academic Excellence Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Maintain High Grades</li>
-            <li><strong>Year:</strong> <time datetime="2015">2015 </time>GC, <time datetime="2019">2017 </time>GC, <time datetime="2018">2018 </time>GC</li>
-        </ul></li></ul></div>
-        <div>
-            <ul>
-        <li><strong>Extracurricular Achievement Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Debate</li>
-            <li><strong>Year:</strong><time datetime="2018">2018 </time>GC </li>
-        </ul></li></ul></div>
-        <div>
-            <ul>
-        <li><strong>Artistic Achievements Awards:</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Photography</li>
-            <li><strong>Year:</strong><time datetime="2022">2022 </time>GC </li>
-        </ul></li></ul></div>
+    <main>
+
+    <div class="education-container">
+        <div class="head">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <p class="education">Education</p>
+        </div>
     
-       </section>
+        <div class="details">
+            <div class="year">2005-2017 </div>
+            <div class="info"><img src="images/download(3).jpg" alt="omega school">
+                <p class="title"><b>Primary Education:</b> Omega Primary School,<abbr title="Addis Ababa"> AA</abbr></p>
+                <ul class="list">
+                    <li><em>Graduation Year:</em><time datetime="2017">2017</time> GC</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="details">
+            <div class="year">2018-2021 </div>
+            <div class="info"><img src="images/download77" alt="omega high school">
+                
+                <p class="title"><b>Secondary Education</b>- Omega Secondary School,<abbr title="Addis Ababa"> AA</abbr> </p>
+                <ul class="list">
+                    <li><em>Graduation Year:</em><time datetime="2021">2021</time> GC</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="details">
+            <div class="year">2022-present </div>
+            <div class="info"><img src="images/download(4).jpg" alt="aait">
+            
+                <p class="title"><b>Univeristy: </b> <abbr title="aait">Addis Ababa Institute of Technology</abbr></p>
+                <ul class="list">
+                    <li><em>Major:</em> Software Engineering</li>
+                    <li><em>Expected Graduation Date:</em><time datetime="2025">2025</time> GC</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="electives-container"> 
+    <div class="head">
+        <div class="logo">
+            <i class="fa-solid fa-book-open-reader"></i>
+        </div>
+        <p class="electives">Electives</p></div>
+        <div class="details">
+        <div class="year">2023 GC</div>
+        <div class="info"><img src="images/1630626163261.jpg" alt="bits college">
+        <p class="title"><b>Institute:</b> Bits College,<abbr title="Addis Ababa"> AA</abbr> </p>
+        <ul class="list">
+            <li><em>Course name:</em> Hackaton</li>
+        </ul></div></div>
+    
+    <div class="details">
+        <div class="year">2022 GC</div>
+        <div class="info"><img src="images/1634494196-52-tom-videographer-photography-training-center.jpg" alt="tom training center">
+        <p class="title"><b>Institute:</b> Tom training center,<abbr title="Addis Ababa"> AA</abbr> </p>
+        <ul class="list">
+            <li><em>Course name:</em> Photography</li>
+        </ul></div></div>
+    
+        <div class="details">
+            <div class="year">2021GC</div>
+            <div class="info"><img src="images/download(5).jpg" alt="Inlight Acadamy">
+            <p class="title"><b>Institute:</b> Inlight Acadamy,<abbr title="Addis Ababa"> AA</abbr> </p>
+            <ul class="list">
+                <li><em>Course name:</em> Graphics Design</li>
+            </ul></div></div></div>
+        <div class="achievement-container">
+            <div class="head">
+                <div class="logo">
+                    <i class="fa-solid fa-award"></i></div>
+                <p class="achievement">Achievements</p></div>
+                <ul class="list">
+                    <li><strong>Innovation and Creativity Awards</strong>
+                        <ul>
+                            <li><strong>Awarded for:</strong> Mobile robot</li>
+                            <li><strong>Year:</strong><time datetime="2019">2019 </time>GC </li>
+                        </ul></li>
+                </ul>
+                <ul class="list">
+                    <li><strong>Academic Excellence Awards</strong>
+                        <ul>
+                            <li><strong>Awarded for:</strong> Maintain High Grades</li>
+                            <li><strong>Year:</strong> <time datetime="2015">2015 </time>GC, <time datetime="2019">2017 </time>GC, <time datetime="2018">2018 </time>GC</li>
+                        </ul></li>
+                    </ul>
+                <ul class="list">
+                    <li><strong>Extracurricular Achievement Awards</strong>
+                        <ul>
+                            <li><strong>Awarded for:</strong> Debate</li>
+                            <li><strong>Year:</strong><time datetime="2018">2018 </time>GC </li>
+                        </ul></li>
+                </ul>
+                <ul class="list">
+                    <li><strong>Artistic Achievements Awards:</strong>
+                        <ul>
+                            <li><strong>Awarded for:</strong> Photography</li>
+                            <li><strong>Year:</strong><time datetime="2022">2022 </time>GC </li>
+                        </ul></li>
+                </ul>
+    
+                
+            </div>
+        </div>
+    
     </main>
     <footer>
         <p>&copy; 2023 Tsion Melese. All rights reserved.</p>
