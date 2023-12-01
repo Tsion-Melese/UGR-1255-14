@@ -1,48 +1,75 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Tsion Melese Profile</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
 
     <header>
+        <header>
+       
+            <div class="header">
+                <div class="logo">
+                    <img src="images/Screenshot2023-11-28172206.png" alt="Logo">
+                </div>
         <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                 <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav> 
-        <a href="#personal"> Personal Information ,</a>
-    <a href="#major"> Majors ,</a>
-    <a href="#languge"> Languages ,</a>
-    <a href="#certifcation"> Certification  </a></header>
-    <a href="#skill"> Skills</a>
-    
+            <input type="checkbox" id="check">
+            <label for="check" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                </label>
+            <div class="menu-items">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li><a href="Hobbies.html">Hobbies</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+          </nav>
+        </header>
 
-    <h1>CV</h1>
-    <section id="personal">
+    <main>
+   <div class="cv-container">
+    <div id="personal">
+        <div class="cv-image">
+                <img src="images/3dpic.jpg" alt="professional picture">
+            </div>
+         
         <h2>Personal Information</h2>
         <ul>
-            <li><strong>Name:</strong> Tsion Melese</li>
+            <li> Tsion Melese</li>
+            <li> Software Engineer</li>
             <li><strong> For more personal information:</strong><a href="Contact.html">Click here</a></li>
         </ul>
-    </section>
+   
+    
+    
+     
+    
+   
 
-    <section id="major">
+    <div id="major">
         <h2>Major:</h2>
         <ol> <li>Software Engineering </li>
         <li> Graphics designer</li>
     <li> Photographer</li></ol>
-                </section>  
-        <section id="languge">
+        </div>  
+        
+   
+    <div id="experience">
+        <h2>Work Experience</h2>
+        <p><b>School Projects:</b> Worked on numerous school projects, gaining valuable experience in project management,
+            collaboration, and problem-solving.</p>
+        </div>
+ <div id="languge"> 
         <h2>Languages</h2>
         <ul>
             <li>Amharic (Native)
@@ -58,16 +85,9 @@
                 <source src="images/ElevenLabs_2023-11-24T15_34_31_Charlotte.mp3" type="audio/mp3" >
               </audio></li>
             
-        </ul></section>
-   
-   
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <p>School Projects: Worked on numerous school projects, gaining valuable experience in project management,
-            collaboration, and problem-solving.</p>
-    </section>
-
-    <section id="skill">
+        </ul></div>
+  
+    <div id="skill">
         <h2>Skills</h2>
 
         <h3>Programming Languages</h3>
@@ -109,8 +129,8 @@
             <li>Teamwork</li>
             <li>Problem-solving</li>
         </ul>
-    </section> 
-        <section id="certifcation">
+    </div> 
+        <div id="certifcation">
         <h2>Certifications</h2>
 
         <h3>Red Hat Certification</h3>
@@ -132,12 +152,14 @@
         <ol> <li>Certification Name: IT Academy: Software Defined Storage Concepts</li>
         <li> Certification Date: <time datetime="2023-09-10">2023-09-10</time></li></ol>
         
-    </section>
+        </div></div></div>
 
 
    
   
-
-</body>
-
-</html>
+        <footer>
+            <p>&copy; 2023 Tsion Melese. All rights reserved.</p>
+        </footer>
+    </main>
+    </body>
+    </html>

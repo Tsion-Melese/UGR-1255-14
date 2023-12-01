@@ -1,0 +1,889 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161.jpg");
+  font-family: 'Arial', sans-serif;
+  padding: 0;
+  width: 320px;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  width: 320px;
+} 
+ 
+.logo img {
+    max-height: 50px; 
+    max-width: 100%; 
+   
+}
+
+
+nav {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.menu {
+  display: block;
+  cursor: pointer;
+}
+
+nav ul {
+  display: none;
+  flex-direction: column;
+  padding: 0;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid violet;
+}
+
+#check:checked ~ .menu-items ul {
+  display: flex;
+  flex-direction: column;
+}
+main {
+    
+    width: 320px; 
+   margin: 0 ; 
+    
+  }
+  .home-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+.Profile-image {
+    margin: 0 ; 
+    padding: 0;
+    align-items: center;
+}
+
+
+.Profile-image img {
+  
+  width: 320px;
+  max-height: 350px; 
+  height: auto; 
+}
+.welcome-text,.welcoming-text  {
+  text-align: center;
+  padding: 0;
+  
+  color: black;
+
+  }
+.welcome-text{
+    font-family: cursive;
+    color: purple;
+     }
+
+  blockquote footer{
+    color:grey;
+  }
+
+abbr {
+  position: relative;
+  border-bottom: 1px dashed; 
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.Biography, .Goals, .personal-growth, .role-models {
+  text-align: center;
+  width: 340px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightsalmon;
+  
+  
+  
+}
+.Goals{
+  background-color: wheat;
+}
+
+.personal-growth{
+background-color: blanchedalmond;
+}
+  
+.role-models {
+   background-color: lightblue;
+    }
+  
+
+h2, .goal-text {
+  font-family: cursive;
+  color: purple;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-style: italic;
+  
+}
+
+.hobbies-link a {
+  color: purple;
+  text-decoration: none;
+}
+
+.bio-image {
+  margin-top: 20px;
+}
+
+.bio-image img {
+  width: 100%;
+  border-radius: 40%;
+}
+
+
+.ordered-list {
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 220px;
+  margin: 10px;
+
+}
+
+
+.ordered-list ol {
+list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column;
+
+}
+
+.ordered-list li {
+counter-increment: custom-counter;
+margin-bottom: 10px;
+display: flex;}
+
+.ordered-list ul{
+list-style: none;
+
+}
+
+.ordered-list li::before{
+content: counter(custom-counter);
+font-weight: bold;
+color: purple; 
+margin-right: 5px;
+}
+.goals-image {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center; 
+margin-top: 20px;
+width: 270px;
+}
+
+.row {
+display: flex;
+}
+
+.goal-imgone,
+.goal-imgtwo,
+.goal-imgthree,
+.goal-imgfour {
+margin-right: 10px; 
+}
+
+.goals-image img {
+max-width: 100%;
+}
+.about-container{
+display: flex;
+flex-wrap: wrap;
+width: 320px; 
+}
+
+.role-models video,
+img {
+width: 250px;
+height: 200px;
+border-radius: 18px;
+margin-bottom: 15px;
+}
+
+p {
+margin-bottom: 15px;
+line-height: 1.6;
+}
+
+
+
+em {
+font-style: italic;
+color: orchid;
+}
+
+
+
+.cv-container {
+  background: lavender;
+  width: 300px; 
+  padding: 20px;
+  
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cv-image img {
+  width: 100%;
+  border-radius: 50%; 
+}
+
+#personal h2,
+#certifcation h2,
+#skill h2,
+#languge h2,
+#experience h2,
+#major h2 {
+  background: purple;
+  padding: 10px;
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid purple;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: purple;
+  color: white;
+}
+
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+}
+
+
+audio::-webkit-media-slider-thumb {
+  background-color: white;
+}
+
+
+#certifcation ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: custom-counter;
+}
+
+#certifcation li {
+  counter-increment: custom-counter;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+#certifcation li::before {
+  content: counter(custom-counter);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  color: purple;
+  margin-right: 5px;
+}
+
+
+
+.hobbie-container .card {
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: lightblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 10px;
+  height: 350px;
+}
+.sport-container .card{
+  height: 200px;
+}
+
+.hobbie-container .card img {
+  width: 250px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.hobbie-container .card-content {
+  padding: 10px;
+}
+
+.hobbie-container h3  {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: darkblue;
+
+}
+.hobbie-container{
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.hobbie-container blockquote {
+  font-size: 12px;
+  color: #666;
+  border-left: 2px solid lightskyblue;
+  padding-left: 3px;
+}
+
+.hobbie-container  blockquote footer {
+  margin-top: 5px;
+  display: block;
+  font-size: 12px;
+  color: #888;
+}
+
+.download-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightskyblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.download-link:hover {
+  background-color: lightskyblue;
+}
+
+
+.card-container, .movie-container, .vacation-container , #volunteer-container, .sport-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: burlywood;
+  width: 340px;
+}
+.movie-container{
+  background-color: lightseagreen;
+}
+.vacation-container{
+  background-color: lightgreen;
+}
+#volunteer-container{
+  background-color: lightcoral;
+ 
+  padding: 10px;
+}
+.sport-container{
+  background-color: orange;
+}
+
+ 
+
+.video-card {
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: lightblue;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 80px; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+strong {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.card-vac {
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 250px;
+}
+
+.card-vac img {
+  width: 250px;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.vac-card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  display: block;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+#volunteer-container {
+  background-color: lightcoral;
+  
+}
+
+#volunteer-container .card {
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 250px;
+}
+
+#volunteer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#volunteer-container p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+#volunteer-container strong {
+  color: #333;
+}
+
+#volunteer-container i {
+  color: #777;
+}
+
+#volunteer-container address {
+  font-style: normal;
+  margin-top: 10px;
+}
+
+ul.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.details li {
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.website-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: lightskyblue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.website-link:hover {
+  background-color: lightskyblue;
+}
+
+
+#volunteer-container {
+  background: burlywood;
+  width: 320px;
+}
+
+#volunteer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#volunteer-container  {
+  width: 100%; 
+  height: auto;
+}
+
+
+
+.contact-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.182); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color:blue;
+}
+
+.contact-container h1, .contact-container h2 {
+  text-align: center;
+  color: purple;
+  
+}
+
+.contact-container img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; 
+}
+
+.contact-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contact-container a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;}
+  
+
+  .philosophy {
+    
+background-color: beige;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+padding: 20px;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 320px;
+
+   
+
+}
+#podcast{
+  background-color: lightblue;
+  display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+padding: 20px;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 320px;
+}
+#facts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: lavender;
+  padding: 20px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  
+  }
+  
+  
+
+.philosophy h2, #facts h2, #podcast h2 {
+    color: purple;
+    text-align: center;
+}
+
+.philosophy img, #facts img {
+    
+    margin: 20px auto;
+    width: 300px;
+    height: 100px;
+}
+.blog-container {
+display: flex;
+flex-wrap: wrap;
+width: 320px; 
+  
+  
+
+}
+
+.ordered-list {
+margin-top: 2px;
+margin-left: 2px;
+}
+
+.ordered-list ol {
+list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.ordered-list li {
+counter-increment: custom-counter;
+margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-left: 2px; 
+}
+
+.ordered-list li::before {
+content: counter(custom-counter);
+font-weight: bold;
+color: purple;
+margin-right: 5px; 
+}
+
+#facts .ordered-list li {
+background-color: lightblue; 
+padding: 8px;
+border-radius: 4px;
+}
+
+.philosophy-list p {
+    margin-bottom: 10px;
+    line-height: 1.5;}
+
+
+blockquote {
+    background-color:white;
+    border-left: 4px solid lightskyblue;
+    padding: 10px;
+    margin: 0;
+    font-style: italic;
+}
+
+#podcast ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+#podcast li {
+width: 230px;
+margin: 20px;
+padding: 14px;
+border: 1px solid wheat;
+border-radius: 10px;
+background-color: 	beige;
+transition: transform 0.3s ease;
+}
+
+
+#podcast img{
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+#podcast p {
+color: darkgray;
+}
+
+#podcast a {
+display: flex;
+background-color: lightskyblue;
+color: wheat;
+text-decoration: none;
+padding: 8px 15px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+
+
+.education-container, .electives-container, .achievement-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin: 0px;
+  padding: 20px;
+  background-color: lavender;
+  width: 300px;
+  
+
+}
+.electives-container{
+  background-color: aqua;
+}
+.achievement-container{
+  background-color: lightblue;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edu .logo {
+  margin-right: 10px;
+}
+
+.edu .logo i {
+  font-size: 2rem;
+  color: blue;
+}
+
+.education, .electives, .achievement {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: purple;
+}
+
+.details {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.year {
+  font-size: 1rem;
+  font-weight: bold;
+  min-width: 100px;
+  color: purple;
+}
+
+
+.info {
+  margin-left: 10px;
+}
+
+.edu .title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.edu .list {
+  list-style:disc;
+  padding: 0;
+  margin-left: 15px;
+  
+}
+
+.edu .list li {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  
+}
+
+.edu em {
+  font-style: italic;
+  margin-right: 5px;
+}
+.info img{
+  width: 100px;
+  height: 120px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  }
+
+footer p {
+  margin: 5px 0;
+}
+
