@@ -1,214 +1,577 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tsion Melese Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Tsion Melese Profile</title>
-</head>
-
-<body>
-
+  </head>
+  <body class="has-background-info">
     <header>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="#Entertainment">Entertainment ,</a>
-        <a href="#vacations"> Vacations ,</a>
-        <a href="#volunteer"> Volunteer work ,</a>
-        <a href="#sport"> Sport</a>
+      <nav class="navbar is-dark is-white">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img
+              src="images/Screenshot2023-11-28172206.png"
+              alt="Portfolio Logo"
+            />
+          </a>
+          <a class="navbar-burger" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="navigations">
+          <div class="navbar-start">
+            <a href="Home.html" class="navbar-item">Home</a>
+            <a href="About.html" class="navbar-item">About</a>
+            <a href="Education.html" class="navbar-item">Education</a>
+            <a href="CV.html" class="navbar-item">CV</a>
+            <a href="Hobbies.html" class="navbar-item">Hobbies</a>
+            <a href="Blog.html" class="navbar-item">Blog</a>
+            <a href="Contact.html" class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <h1>Hobbies</h1>
-        <section id="Entertainment">
+      <div class="container has-background-link">
+        <div class="section">
+          <div class="container">
+            <div class="content has-text-centered">
+              <h2 class="title has-text-white">Books</h2>
+              <p class="subtitle">
+                <strong>
+                  <i
+                    >One of my hobbies is reading books. Here are some of
+                    myfavorite books.</i
+                  >
+                </strong>
+              </p>
 
-        <h2>Entertainment:</h2>
-        
-        <div><ul>
-            <li><strong>Books</strong> My other hobbie in the Entertainment secrion is reading book.Whether for the joy of storytelling, the pursuit of knowledge, or the comfort of a good narrative, books offer a rich and fulfilling hobby for me. 
-            <ul><li>
-                The Great Gatsby<br>
-                <img src="images/downloa6.jpg" alt="book cover" height="80" width="80"><br>
-                <a href="images/F_Scott_Fitzgerald__The_Great_Gatsby.epub" download>Download My EPUB Book</a><br>
-                <blockquote>
-            "So we beat on, boats against the current, borne back ceaselessly into the past."
-                <footer>-The Great Gatsby</footer>
-            </blockquote>
-            </li>
-        <li>
-            Pride and Prejudice<br>
-            <img src="images/download9.jpg" alt="book cover" height="80" width="80"><br>
-            <a href="images/Pride_amp_amp_prejudice_by_Jane_Austen.epub" download>Download My EPUB Book</a><br>
-            <blockquote>
-                "Vanity and pride are different things, though the words are often used synonymously. A person may be proud without being vain. Pride relates more to our opinion of ourselves, vanity to what we would have others think of us." 
-                    <footer>-Pride and Prejudice</footer>
-                </blockquote>
-            
-        </li>
-    <li>
-        Harry Potter<br>
-        <img src="images/download10.jpg" alt="book cover" height="80" width="80"><br>
-            <a href= "images/Harry_Potter_and_the_Sorcerer_39_s_Stone_Harry_Potter_1.epub" download>Download My EPUB Book</a><br>
-            <blockquote>
-                "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends." 
-                    <footer>-Harry Potter</footer>
-                </blockquote>
-            
+              <div class="columns">
+                <div class="column is-one-third has-background-grey-light">
+                  <div class="card has-background-link pt-2">
+                    <div class="card-image">
+                      <figure>
+                        <img
+                          src="images/41xn50Az+SL (1).jpg"
+                          alt="Book Cover"
+                        />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <blockquote class="quote has-background-info">
+                        "So we beat on, boats against the current, borne
+                        backceaselessly into the past just to worry about our
+                        future and not enjoy it."<br />
+                        <footer>-The Great Gatsby</footer>
+                      </blockquote>
+                      <div class="content has-text-white">
+                        <p>
+                          The Great Gatsby is<span class="read-dots read-dots-1"
+                            >...</span
+                          ><span class="more more-1 is-hidden">
+                            a 1925 novel by American writer F. Scott
+                            Fitzgerald.Set in the Jazz Age on Long Island, near
+                            New York City, the novel depicts first-person
+                            narrator Nick Carraway's interactions with
+                            mysterious millionaire Jay Gatsby and Gatsby's
+                            obsession to reunite with his former lover,Daisy
+                            Buchanan.
+                          </span>
+                        </p>
+                        <button
+                          onclick="readFunction(1)"
+                          class="button is-info is-small readBtn-1"
+                        >
+                          Read More
+                        </button>
+                      </div>
+                      <a
+                        href="images/F_Scott_Fitzgerald__The_Great_Gatsby.epub"
+                        class="button is-info"
+                        >Download EPUB
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third pt-2 has-background-grey-light">
+                  <div class="card has-background-link">
+                    <div class="card-image">
+                      <figure>
+                        <img src="images/download9.jpg" alt="Book Cover" />
+                      </figure>
+                      <div class="card-content">
+                        <blockquote class="quote has-background-info">
+                          "But people themselves alter so much that there is
+                          something new in them forever."<br />
+                          <footer>-Pride and Prejudice</footer>
+                        </blockquote>
+                        <div class="content has-text-white">
+                          <p>
+                            Pride and Prejudice is
+                            <span class="read-dots read-dots-2">...</span>
+                            <span class="more more-2 is-hidden"
+                              >an 1813 novel of manners by English author Jane
+                              Austen. The novel follows the character
+                              development of Elizabeth Bennet, the protagonist
+                              of the book, wholearns about the repercussions of
+                              hasty judgments and comes to appreciate the
+                              difference between superficial goodness and actual
+                              goodness.
+                            </span>
+                          </p>
+                          <button
+                            onclick="readFunction(2)"
+                            class="button is-info is-small readBtn readBtn-2"
+                          >
+                            Read More
+                          </button>
+                        </div>
+                        <a
+                          href="images/Pride_amp_amp_prejudice_by_Jane_Austen.epub"
+                          class="button is-info"
+                          >Download EPUB</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third has-background-grey-light">
+                  <div class="card has-background-link">
+                    <div class="card-image">
+                      <figure>
+                        <img src="images/download10.jpg" alt="Book Cover" />
+                      </figure>
+                      <div class="card-content">
+                        <blockquote class="quote has-background-info">
+                          "It takes a great deal of bravery to stand up to our
+                          enemies, And to stand up to our friends." <br />
+                          <footer>-Harry potter</footer>
+                        </blockquote>
+                        <div class="content has-text-white">
+                          <p>
+                            Harry Potter is
+                            <span class="read-dots read-dots-3">...</span>
+                            <span class="more more-3 is-hidden"
+                              >a series of seven fantasy novels written by
+                              British author J. K. Rowling. The novels chronicle
+                              the lives of a young wizard, Harry Potter, and his
+                              friends Hermione Granger and Ron Weasley, all of
+                              whom are students at Hogwarts School of Witchcraft
+                              and Wizardry.
+                            </span>
+                          </p>
+                          <button
+                            onclick="readFunction(3)"
+                            class="button is-info is-small readBtn readBtn-3"
+                          >
+                            Read More
+                          </button>
+                        </div>
+                        <a
+                          href="images/Harry_Potter_and_the_Sorcerer_39_s_Stone_Harry_Potter_1.epub"
+                          class="book__download-link button is-info"
+                          >Download EPUB</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container">
+            <div class="content has-text-centered">
+              <h2 class="title has-text-white">Movies</h2>
+              <p class="subtitle">
+                <strong
+                  ><i
+                    >Most of us find comfort in watching favorite movies. Here
+                    are my comfort movies and TV shows to binge.</i
+                  ></strong
+                >
+              </p>
 
+              <div class="columns is-flex is-justify-content-space-between">
+                <div class="column is-one-third">
+                  <div class="card has-background-grey-light">
+                    <div class="card-content">
+                      <div
+                        class="content is-flex is-justify-content-center is-align-items-center"
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/5g1SLGRM6qU"
+                          class="is-16by9"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="content has-text-centered has-text-link">
+                        <strong>Garfield</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third">
+                  <div class="card has-background-grey-light">
+                    <div class="card-content">
+                      <div
+                        class="content is-flex is-justify-content-center is-align-items-center"
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/IEEbUzffzrk"
+                          class="is-16by9"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="content has-text-centered">
+                        <strong>Friends</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third">
+                  <div class="card has-background-grey-light">
+                    <div class="card-content">
+                      <div
+                        class="content is-flex is-justify-content-center is-align-items-center"
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/s7EdQ4FqbhY"
+                          class="is-16by9"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="content has-text-centered">
+                        <strong>Pulp Fiction</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    </li>
-    <li>ግራጫ ቃጭሎች<br>
-        <img src="images/download11.jpg" alt="book cover" height="80" width="80"><br>
-            <a href= "https://typicalethiopian.com/wp-content/uploads/2022/02/%E1%8C%8D%E1%88%AB%E1%8C%AB-%E1%89%83%E1%8C%AD%E1%88%8E%E1%89%BD-.pdf">Go to the book</a><br>
-            <blockquote>
-                "Life is not always like a bright star or a dark one; it is grey. happiness and sadness,success and failure,gaining and losing all are greys"
-                <footer>-ግራጫ ቃጭሎች</footer>
-            </blockquote></li></ul>
+        <div class="section">
+          <div class="container">
+            <div class="content has-text-centered">
+              <h2 class="title has-text-white">Vacation</h2>
+              <p class="subtitle">
+                <strong
+                  ><i
+                    >Right here on this website, you can discover and explore
+                    all the wonderful vacations I've had in the past. Take a
+                    journey through my past adventures to get a glimpse into the
+                    exciting places I have visited during my previous
+                    vacations.</i
+                  ></strong
+                >
+              </p>
 
-    </li></ul> </div>
-    <div>
-        <ul>
-    <li><strong>Movies:</strong> One of my hobbies is indulging in movies during my free time. It's a leisure activity that brings me joy and relaxation, allowing me to unwind and immerse myself in captivating stories.
-            <ul>
-                <li> Garfield: The Movie <br>
-                    <img src="images/12.jpg" alt="Movie cover" height="80" width="80"><br>
-                    <a href="https://www.youtube.com/watch?v=5g1SLGRM6qU">Garfield trailer</a>
+              <div class="columns">
+                <div class="column is-one-third has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="images/download33.jpg" alt="Kuriftu" />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Kuriftu Debre Zeit</h3>
+                      <a
+                        href="https://www.google.com/maps/d/viewer?mid=1ZtyFDM9qgpwv9lYbBfaspnIj_-c&hl=en_US&ll=8.75263403182608%2C38.97754900000001&z=14"
+                        class="has-text-white"
+                        ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Kuriftu Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="images/download22.jpg" alt="Haile resort" />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Haile Resort</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Haile+Resort+-+Hawassa/@7.0795884,38.4790939,15z/data=!4m2!3m1!1s0x0:0x521593a915fba3f1?sa=X&ved=2ahUKEwjl34qvod2CAxXG0qQKHbBqAuQQ_BJ6BAhIEAA&hl=en "
+                        class="has-text-white"
+                        ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Haile Resort Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-third has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="images/download23.jpg" alt="Haile resort" />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Haile Resort</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Doho+Lodge/@9.1356297,40.0842751,15z/data=!4m2!3m1!1s0x0:0x4544b72f127af9ff?sa=X&ved=2ahUKEwjGrY36od2CAxXP6aQKHZr2BOYQ_BJ6BAhOEAA&hl=en"
+                        class="has-text-white"
+                      >
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Doho
+                        Lodge Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="subtitle">
+                <strong
+                  ><i
+                    >I have a list of places that I really want to visit in the
+                    future. These are special locations that I am excited to
+                    explore & experience someday. I look forward to opportunity
+                    of traveling to these places and make wonderful memories
+                    there.</i
+                  ></strong
+                >
+              </p>
 
-                </li>
-                <li>
-                    Friends<br>
-                    <img src="images/download12.jpg" alt="Movie cover" height="80" width="80"><br>
-                    <a href="https://www.youtube.com/watch?v=IEEbUzffzrk "> Friends trailer</a>
-                </li>
-                <li>
-                    Pulp fiction<br>
-                    <img src= "images/13.jpg" alt="Movie cover" height="80" width="80"><br>
-                    <a href="https://www.youtube.com/watch?v=s7EdQ4FqbhY"> Pulp fiction trailer</a>
-                    
-                </li>
-                <li> 
-                    Inception<br>
-                    <img src= "images/download13.jpg" alt="Movie cover" height="80" width="80"><br>
-                    <a href="https://www.youtube.com/watch?v=YoHD9XEInc0"> Inception trailer</a>
+              <div class="columns has-text-centered">
+                <div class="column is-one-quarter has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="images/download44.jpg"
+                          alt="Blue Nile Falls"
+                        />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Blue Nile Falls</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Blue+Nile+Falls/data=!4m2!3m1!1s0x1644dc2fac819c29:0x6549b4d3bc533438?sa=X&ved=2ahUKEwj1xP3to92CAxWr4QIHHTF2CdgQ8gF6BAgKEAA&hl=en"
+                        class="has-text-white"
+                      >
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Blue
+                        Nile Falls Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-quarter has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="images/best-places-to-visit-in-greece-santorini.jpg"
+                          alt="Athence greece"
+                        />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Athens Greece</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Athens,+Greece/data=!4m2!3m1!1s0x14a1bd1f067043f1:0x2736354576668ddd?sa=X&ved=2ahUKEwjNy-3KpN2CAxWInqQKHQcmCqMQ8gF6BAgKEAA&hl=en"
+                        class="has-text-white"
+                      >
+                        <i class="fa fa-map-marker" aria-hidden="true"></i
+                        >Athens Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-quarter has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="images/licensed-image.jpg"
+                          alt="venice Italy"
+                        />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Venice Italy</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Venice,+Metropolitan+City+of+Venice,+Italy/data=!4m2!3m1!1s0x477eb1daf1d63d89:0x7ba3c6f0bd92102f?sa=X&ved=2ahUKEwiJhZCUpd2CAxXLyqQKHTdvAJYQ8gF6BAgKEAA"
+                        class="has-text-white"
+                      >
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Venice Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-quarter has-background-primary">
+                  <div class="card has-background-info">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="images/download99.jpg" alt="Bahamas Nassu" />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <h3>Bahamas Nassu</h3>
+                      <a
+                        href="https://www.google.com/maps/place/Nassau,+The+Bahamas/@25.0324697,-77.5719043,11z/data=!3m1!4b1!4m6!3m5!1s0x892f7c99b981dbc9:0x2aef01d3485e50d2!8m2!3d25.0443312!4d-77.3503609!16zL20vMDVoY3k?entry=ttu"
+                        class="has-text-white"
+                      >
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Nassau Map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container has-text-centered">
+            <div class="content">
+              <h2 class="title has-text-white">Volunteering</h2>
+              <p class="subtitle">
+                <strong
+                  ><i
+                    >Helping people and putting a smile on their faces is one of
+                    my favorite hobbies. Here are some places I volunteered in
+                    the past.</i
+                  ></strong
+                >
+              </p>
 
-                </li>
-            </ul>
-            </li></ul></div>
-        </section>
-        <section id="vacations">
-        
-        <h2> Vacation</h2>
-        <p>My other hobby is going on vacations. It might sound like a simple thing, but for me, it's a way to take a break from everyday life and explore new places.</p>
-        <ul>
-            <li>
-                <section> <h3>Past Adventures:</h3>
-                <ul>
-                    <li>kuriftu debre zeit, Ethiopia<br>
-                        <img src= "images/download33.jpg" alt="kuriftu" height="80" width="80"><br>
-                        <a href="https://www.google.com/maps/d/viewer?mid=1ZtyFDM9qgpwv9lYbBfaspnIj_-c&hl=en_US&ll=8.75263403182608%2C38.97754900000001&z=14"> Google Map to kuriftu </a>
-                        </li>
-                        <li>Hawasa Haile resort<br>
-                            <img src= "images/download22.jpg" alt="Haile resort" height="80" width="80"><br>
-                            <a href="https://www.google.com/maps/place/Haile+Resort+-+Hawassa/@7.0795884,38.4790939,15z/data=!4m2!3m1!1s0x0:0x521593a915fba3f1?sa=X&ved=2ahUKEwjl34qvod2CAxXG0qQKHbBqAuQQ_BJ6BAhIEAA&hl=en"> Google Map to Haile resort</a>
-                        </li>
-                        <li> Awash doho lodge<br>
-                            <img src= "images/download23.jpg" alt="Haile resort" height="80" width="80"><br>
-                            <a href="https://www.google.com/maps/place/Doho+Lodge/@9.1356297,40.0842751,15z/data=!4m2!3m1!1s0x0:0x4544b72f127af9ff?sa=X&ved=2ahUKEwjGrY36od2CAxXP6aQKHZr2BOYQ_BJ6BAhOEAA&hl=en"> Google Map to doho lodge</a>
-                        </li>
-                </ul></section>
-                <section><h3> Future Odyssey:</h3>
-                
-                <ul>
-                    <li> Blue Nile Falls (Tis Abay)<br>
-                        <img src="images/download44.jpg" alt="Blue Nile Falls" height="80" width="80"><br>
-                        <a href="https://www.google.com/maps/place/Blue+Nile+Falls/data=!4m2!3m1!1s0x1644dc2fac819c29:0x6549b4d3bc533438?sa=X&ved=2ahUKEwj1xP3to92CAxWr4QIHHTF2CdgQ8gF6BAgKEAA&hl=en"> Google Map to Blue Nile Falle(Tis Abay)</a>
-                    </li>
-                    <li>
-                        Athens, Greece<br>
-                        <img src="images/best-places-to-visit-in-greece-santorini.jpg" alt="Blue Nile Falls" height="80" width="80"><br>
-                        <a href="https://www.google.com/maps/place/Athens,+Greece/data=!4m2!3m1!1s0x14a1bd1f067043f1:0x2736354576668ddd?sa=X&ved=2ahUKEwjNy-3KpN2CAxWInqQKHQcmCqMQ8gF6BAgKEAA&hl=en"> Google Map to Athens</a>
-                    </li>
-                    <li>
-                        Venice, italy <br>
-                        <img src="images/licensed-image.jpg" alt="Venice" height="80" width="80"><br>
-                        <a href="https://www.google.com/maps/place/Venice,+Metropolitan+City+of+Venice,+Italy/data=!4m2!3m1!1s0x477eb1daf1d63d89:0x7ba3c6f0bd92102f?sa=X&ved=2ahUKEwiJhZCUpd2CAxXLyqQKHTdvAJYQ8gF6BAgKEAA"> Google Map to Venice</a>
-
-                    </li>
-                    <li>
-                        Nassau, Bahamas <br>
-                        <img src="images/download99.jpg" alt="Nassu" height="80" width="80"><br>
-                        <a href="https://www.google.com/maps/place/Nassau,+The+Bahamas/@25.0324697,-77.5719043,11z/data=!3m1!4b1!4m6!3m5!1s0x892f7c99b981dbc9:0x2aef01d3485e50d2!8m2!3d25.0443312!4d-77.3503609!16zL20vMDVoY3k?entry=ttu"> Google Map to Nassau</a>
-                        
-                    </li>
-                </ul></section>
-            
-            </li>
-        </ul>
-        </section>
-        <section id="volunteer">
-            <h2>Volunteer</h2>
-            <ul><li>
-            <section>
-                <h3> Volunteering Experiences:</h3>
-                <p>
-                    During the past few years, I have had the incredible opportunity to volunteer for various organizations and causes that are close to my heart. Some are the following:</p>
-                    <ul>
+              <div class="columns is-justify-content-space-between">
+                <div class="column is-half is-5">
+                  <div class="card">
+                    <div
+                      class="card-content has-background-danger has-text-white"
+                    >
+                      <h3 class="title has-text-centered has-text-white">
+                        Mekedonia
+                      </h3>
+                      <ul>
                         <li>
-                            <strong>Name:</strong>Mekedonia<br>
-                            <i>Primary focus:</i>elderly and individuals with mental disabilities
-                            <address>
-                                <ul>
-                                    <li> Address: Bole sub city, 190190 Addis-Abeba</li>
-
-                                        <li>Phone Number: +251962392154</li>
-                                        
-                                        <li>Website: www.mekedonia.com..</li>
-                                        
-                                        <li>Categories: Non-Governmental Organization (NGO)</li>
-                                    
-                                        <li>GPS Coordinates: 9.02147,38.89231</li>
-                                </ul>
-                              </address>
-                              
+                          <strong>Address:</strong> Bole sub city, 190190
+                          Addis-Abeba
+                        </li>
+                        <li><strong>Phone Number:</strong> +251962392154</li>
+                        <li>
+                          <strong>Website:</strong>
+                          <a
+                            href="www.mekedonia.com"
+                            class="website-link has-text-black"
+                            >Visit Website</a
+                          >
                         </li>
                         <li>
-                            <strong> Name:</strong> Hope for children<br>
-                            <i> Primary focus:</i>children
-                            <address>
-                                <ul>
-                                    <li> Address:  Addis Ababa, Ethiopia </li>
-                                    <li> Phone Number: 251-111-22 26 21</li>
-                                    <li> Website:https://www.hopeforchildrenethiopia.org/ </li>
-                                    <li> Categories: Non-Governmental Organization (NGO)</li>
-                                    
-                                </ul>
-                            </address>
+                          <strong>Categories:</strong> Non-Governmental
+                          Organization (NGO)
                         </li>
-                    </ul>
-                </section>
-        </li></ul>
-        </section>
-        <section id="sport">
-        <h2>Sport</h2>
-        <div>
-            <p><strong>. Basket Ball</strong> is the other one of my hobbie.Ever since I was a child, the thrilling and joyous pastime of basketball has been an integral part of my life. The love for playing this energetic sport has been with me since those early days of childhood.</p>
-            <img src= "images/downloadd.jpg" alt="Movie cover" height="80" width="80">
-        </div></section>
-    
+                        <li>
+                          <strong>GPS Coordinates:</strong> 9.02147, 38.89231
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
 
-        
-      
-
-
-
+                <div class="column is-half is-5">
+                  <div class="card">
+                    <div
+                      class="card-content has-background-danger has-text-white"
+                    >
+                      <h3 class="title has-text-centered has-text-white">
+                        Hope For Children
+                      </h3>
+                      <ul>
+                        <li>
+                          <strong>Address:</strong>Klofe-Keraniyo Addis-Abeba ,
+                          Ethiopia
+                        </li>
+                        <li><strong>Phone Number:</strong> +251911357654</li>
+                        <li>
+                          <strong>Website:</strong>
+                          <a
+                            href="https://www.hopeforchildren.com"
+                            class="website-link has-text-black"
+                            >Visit Website</a
+                          >
+                        </li>
+                        <li>
+                          <strong>Categories:</strong> Non-Governmental
+                          Organization (NGO)
+                        </li>
+                        <li>
+                          <strong>GPS Coordinates:</strong> 9.02190, 40.02231
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container">
+            <div class="content">
+              <div class="columns is-flex is-justify-content-center">
+                <div class="column is-one-third has-background-grey-light">
+                  <div class="card has-background-danger-light has-text-black">
+                    <div class="card-content has-text-centered">
+                      <h3>
+                        <strong class="title has-text-info">Basketball</strong>
+                      </h3>
+                      <figure class="image is-4by3">
+                        <img
+                          src="images/downloadd.jpg"
+                          alt="Basketball Image"
+                        />
+                      </figure>
+                      <p>
+                        Basketball is not just a game; it's a way of life.
+                        Whether I'm shooting hoops on the court or cheering for
+                        my favorite team, the thrill of the game never fails to
+                        excite me.
+                      </p>
+                      <div class="content">
+                        <p>
+                          <strong class="has-text-info">Favorite Team:</strong>
+                          Los Angeles Lakers
+                        </p>
+                        <p>
+                          <strong class="has-text-info"
+                            >Favorite Player:</strong
+                          >
+                          LeBron James
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
-        <p>&copy; 2023 Tsion Melese. All rights reserved.</p>
-    </footer></body></html>
+    <footer class="footer has-background-dark py-2">
+      <div class="content has-text-centered">
+        <p class="has-text-white">
+          &copy; 2023 Tsion Melese. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="Js/index.js"></script>
+  </body>
+</html>
