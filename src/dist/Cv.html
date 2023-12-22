@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+   
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-pink-300 flex flex-col min-h-screen">
+    <header>
+        <nav class="p-5 bg-gray-700 shadow">
+          
+          <div>
+            <span>
+              <img src="images/Screenshot2023-11-28172206.png" alt="logo" class="w-16 h-8 max-w-full">
+            </span>
+      
+      
+         
+          <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-gray-700 w-full left-0 justify-center md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 ">
+            
+            <li class="mx-4 my-6 md:my-0"><a href="Home.html" class="text-xl hover:text-purple-500 text-white">Home</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="About.html" class="text-xl hover:text-purple-500 text-white">About</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Education.html" class="text-xl hover:text-purple-500 text-white">Education</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="CV.html" class="text-xl hover:text-purple-500 text-white">CV</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Hobbies.html" class="text-xl hover:text-purple-500 text-white">Hobbies</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Blog.html" class="text-xl hover:text-purple-500 text-white">Blog</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Contact.html" class="text-xl hover:text-purple-500 text-white">Contact</a></li>
+        </ul>
+        <span class="fixed right-8 top-8">
+          <i class="text-pink-300 text-2xl cursor-pointer md:hidden" onclick="menu()">&#9776;</i>
+      </span>
+      
+      
+      </div>
+        </nav></header>
+
+  <main class="container mx-auto p-8">
+    <div class="cv-container flex flex-col lg:flex-row items-center justify-center h-full">
+      <div class="cv-container__left-side bg-blue-900 text-black p-8">
+  
+       <button type="button" id="printbtn" class="btn btn-primary">&#x1F5A8; Print CV</button>
+        <div class="cv-container__personal">
+          <div class="personal__image">
+            <img src="images/3dpic.jpg" alt="professional picture" class="rounded-full max-w-full h-auto">
+          </div>
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white">Personal Information:</h2>
+
+
+          <ul>
+            <li>Tsion Melese</li>
+            <li>Software Engineer</li>
+            <li><strong>For more personal information:</strong> <a href="Contact.html" class="text-white">Click here</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cv-container__major">
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white">Major:</h2>
+          <ol>
+            <li>Software Engineering</li>
+            <li>Graphics designer</li>
+            <li>Photographer</li>
+          </ol>
+        </div>
+
+        <div class="cv-container__experience">
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white">Work Experience</h2>
+          <p><b>School Projects:</b> Worked on numerous school projects, gaining valuable experience in project management,
+            collaboration, and problem-solving.</p>
+        </div>
+
+        <div class="cv-container__language bg-purple-700 text-white p-2">
+          <h2>Languages</h2>
+          <ul>
+            <li>Amharic (Native)
+              <audio controls class="w-full mt-2">
+                <source src="images/ElevenLabs_2023-11-24T15_33_50_Charlotte.mp3" type="audio/mp3">
+              </audio>
+            </li>
+            <li>English (Fluent)
+              <audio controls class="w-full mt-2">
+                <source src="images/ElevenLabs_2023-11-24T15_34_04_Charlotte.mp3" type="audio/mp3">
+              </audio>
+            </li>
+            <li>Spanish (Intermediate)
+              <audio controls class="w-full mt-2">
+                <source src="images/ElevenLabs_2023-11-24T15_34_31_Charlotte.mp3" type="audio/mp3">
+              </audio>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="cv-container__right-side bg-purple-100 p-8 mt-0 h-full">
+ 
+       <div class="cv-container__skill pt-1">
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white">Skills</h2>
+
+          <h3>Programming Languages</h3>
+          <table class="skill__table w-full border-collapse border border-purple-700 mt-4">
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">Language</td>
+              <td class="border border-purple-700 p-3">Proficiency</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">Python</td>
+              <td class="border border-purple-700 p-3">Advanced</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">Java</td>
+              <td class="border border-purple-700 p-3">Intermediate</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">CSS</td>
+              <td class="border border-purple-700 p-3">Advanced</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">HTML</td>
+              <td class="border border-purple-700 p-3">Advanced</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">MySql</td>
+              <td class="border border-purple-700 p-3">Advanced</td>
+            </tr>
+            <tr class="border border-purple-700">
+              <td class="border border-purple-700 p-3">C#</td>
+              <td class="border border-purple-700 p-3">Intermediate</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="cv-container__skill mt-2">
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white">Soft skill</h2>
+          <div class="flex flex-wrap gap-4 mt-4">
+            <div class="flex-1 bg-purple-700 text-black text-center p-4 rounded">
+                <progress class="progress progress-info" value="60" max="100"></progress>
+                <span class="block mt-2">Communication</span>
+                <span class="block font-bold mt-1">60%</span>
+            </div>
+        
+            <div class="flex-1 bg-purple-700 text-black text-center p-4 rounded">
+                <progress class="progress progress-info" value="70" max="100"></progress>
+                <span class="block mt-2">Leadership</span>
+                <span class="block font-bold mt-1">70%</span>
+            </div>
+        
+            <div class="flex-1 bg-purple-700 text-black text-center p-4 rounded">
+                <progress class="progress progress-info" value="75" max="100"></progress>
+                <span class="block mt-2">Team Work</span>
+                <span class="block font-bold mt-1">75%</span>
+            </div>
+        
+            <div class="flex-1 bg-purple-700 text-black text-center p-4 rounded">
+                <progress class="progress progress-info" value="90" max="100"></progress>
+                <span class="block mt-2">Problem Solving</span>
+                <span class="block font-bold mt-1">90%</span>
+            </div>
+        </div>
+        
+        </div>
+        <div class="cv-container__internship">
+          <h2 class="bg-purple-700 p-2 rounded-r-full text-2xl font-mono text-white mt-4">Internship</h2>
+          <p><b>Software Development Intern</b></p>
+          <p><strong>Company Name:</strong> A2SV </p>
+          <p><strong>Duration:</strong> May 2023 - August 2023</p>
+          <p><strong>Responsibilities:</strong></p>
+          <ul>
+             <li>Assisted in the development of new features for web applications.</li>
+             <li>Collaborated with the development team to troubleshoot and debug issues.</li>
+             <li>Participated in code reviews and provided constructive feedback.</li>
+          </ul>
+       </div>
+       
+      
+      
+      </div></div>
+  </main>
+
+  <footer class="footer  bottom-0 left-0 right-0 text-center text-white bg-gray-800 p-4">
+    <p class="footer__text">&copy; 2023 Tsion Melese. All rights reserved.</p>
+</footer>
+<script src="Js/src.js"></script>
+</body>
+ 
+
+</html>

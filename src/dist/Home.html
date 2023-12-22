@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+   
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-pink-300 flex flex-col min-h-screen">
+    <header>
+        <nav class="p-5 bg-gray-700 shadow">
+          
+          <div>
+            <span>
+              <img src="images/Screenshot2023-11-28172206.png" alt="logo" class="w-16 h-8 max-w-full">
+            </span>
+      
+      
+         
+          <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-gray-700 w-full left-0 justify-center md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 ">
+            
+            <li class="mx-4 my-6 md:my-0"><a href="Home.html" class="text-xl hover:text-purple-500 text-white">Home</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="About.html" class="text-xl hover:text-purple-500 text-white">About</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Education.html" class="text-xl hover:text-purple-500 text-white">Education</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="CV.html" class="text-xl hover:text-purple-500 text-white">CV</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Hobbies.html" class="text-xl hover:text-purple-500 text-white">Hobbies</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Blog.html" class="text-xl hover:text-purple-500 text-white">Blog</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Contact.html" class="text-xl hover:text-purple-500 text-white">Contact</a></li>
+        </ul>
+        <span class="fixed right-8 top-8">
+          <i class="text-pink-300 text-2xl cursor-pointer md:hidden" onclick="menu()">&#9776;</i>
+      </span>
+      
+      
+      </div>
+        </nav></header>
+        
+    <div class="main mt-4">
+        <div class="text-container ml-4 lg:ml-20">
+            <div class="home-container flex flex-col lg:flex-row items-center relative">
+                <div id="home-container__profile-image" class="text-center lg:mr-8 relative">
+                    <div class="slide fade relative"> 
+                        <img src="images/photo_2023-11-23_11-57-26.jpg" alt="Profile-picture" class="max-w-full lg:max-w-3/4 md:max-w-1/2 z-0">
+                    </div>
+                    <div class="slide fade relative"> 
+                        <img src="images/Screenshot 2023-12-16 214635.png" alt="Profile-picture-2" class="max-w-full lg:max-w-3/4 md:max-w-1/2 z-0">
+                    </div>
+                    <div class="slide fade relative"> 
+                        <img src="images/shutterstock_1687431796.jpg" alt="Profile-picture-3" class="max-w-full lg:max-w-3/4 md:max-w-1/2 z-0">
+                    </div>
+                    
+                    <a href="#" class="prev absolute left-0 top-1/2  bg-black bg-opacity-50 text-gray-800 p-2 rounded-md text-xl " title="Previous">&#8249;</a>
+    
+                    <a href="#" class="next absolute right-0 top-1/2 bg-black bg-opacity-50 text-gray-800 p-2 rounded-md text-xl " title="Next">&#8250;</a>
+                </div>
+            
+    
+                
+                            <div class="home-container__dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                <div class="home-container__text-container mt-4 lg:mt-0 lg:flex-1 h-64">
+                    <div class="home-container__welcome-text">
+                        <h3 class="font-cursive text-fuchsia-900 text-2xl lg:text-3xl xl:text-4xl font-bold">Welcome to My Personal Portfolio!</h3>
+                    </div>
+                    <div class="home-container__welcoming-text text-xl lg:text-2xl">
+                        <p><em>Feel free to look around the website</em></p>
+                    </div>
+                    <blockquote class="home-container__quote mt-4 lg:mt-8 border-l-4 border-solid border-fuchsia-700">
+                        "Match the frequency of the reality you want and you cannot help but get that reality"
+                        <footer class="mt-2">- Albert Einstein</footer>
+                    </blockquote>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer class="footer fixed  bottom-0 left-0 right-0 text-center text-white bg-gray-800 p-4">
+        <p class="footer__text">&copy; 2023 Tsion Melese. All rights reserved.</p>
+    </footer>
+    <script src="Js/src.js"></script>
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+   
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-pink-300 flex flex-col min-h-screen">
+    <header>
+        <nav class="p-5 bg-gray-700 shadow">
+          
+          <div>
+            <span>
+              <img src="images/Screenshot2023-11-28172206.png" alt="logo" class="w-16 h-8 max-w-full">
+            </span>
+      
+      
+         
+          <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-gray-700 w-full left-0 justify-center md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 ">
+            
+            <li class="mx-4 my-6 md:my-0"><a href="Home.html" class="text-xl hover:text-purple-500 text-white">Home</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="About.html" class="text-xl hover:text-purple-500 text-white">About</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Education.html" class="text-xl hover:text-purple-500 text-white">Education</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="CV.html" class="text-xl hover:text-purple-500 text-white">CV</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Hobbies.html" class="text-xl hover:text-purple-500 text-white">Hobbies</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Blog.html" class="text-xl hover:text-purple-500 text-white">Blog</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="Contact.html" class="text-xl hover:text-purple-500 text-white">Contact</a></li>
+        </ul>
+        <span class="fixed right-8 top-8">
+          <i class="text-pink-300 text-2xl cursor-pointer md:hidden" onclick="menu()">&#9776;</i>
+      </span>
+      
+      
+      </div>
+        </nav></header>
+  <main class="max-w-screen-xl mx-auto p-6">
+
+    <div class="hobbie italic">
+      <div class=" pt-2">
+      <h2 class="text-3xl font-bold text-center mb-6  bg-blue-300 p-2 text-white">My Favorite Books</h2>
+      <p class="text-center text-gray-700 mb-8">
+        <strong class="italic ">Dive into the worlds of these captivating books that have left a lasting impression on me.</strong>
+      </p>
+      
+      <div class="book-container space-y-4">
+
+     
+        <div class="flex flex-wrap justify-center -mx-4">
+  
+        
+            <div class="max-w-sm p-6 border bg-blue-300 border-gray-200 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 mx-4 my-4">
+              
+  <div class="book__content  ">
+      <img src="images/downloa6.jpg" alt="Book Cover" class="lg:w-40 xl:w-40 md:w-36 w-32 rounded-3xl mx-auto object-cover rounded-t-md mb-4">
+      <blockquote class="book__quote text-sm text-gray-600 border-l-2 border-blue-900 pl-3 bg-white mb-4">
+        "So we beat on, boats against the current, borne back ceaselessly into the past."
+        <br><footer class="text-xs font-bold">- The Great Gatsby</footer>
+      </blockquote>
+      <div class="read-more-container ">
+        <p class="text-white">The Great Gatsby is <span class="read-dots read-dots-1">...</span>
+          <span class="more more-1 hidden ">a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts the first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.
+          </span> </p>
+        <button onclick="readFunction(1)" class="readBtn readBtn-1 bg-blue-600 mx-auto text-white cursor-pointer px-3 py-2 rounded-full border-none transition duration-300 hover:bg-blue-500 ">Read More</button>
+      </div>
+      <a href="images/F_Scott_Fitzgerald__The_Great_Gatsby.epub" class="book__download-link block mx-auto mt-4 text-center text-decoration-none bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">Download EPUB</a>
+    </div>
+  </div>
+  
+  <div class="max-w-sm p-6 border bg-blue-300 border-gray-200 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 mx-4 my-4">
+   
+  <div class="book__content">
+      <img src="images/download9.jpg" alt="Book Cover" class="lg:w-40 xl:w-40 md:w-36 w-32 rounded-3xl mx-auto object-cover rounded-t-md mb-4" >
+      <blockquote class="book__quote text-sm text-gray-600 border-l-2 border-blue-900 pl-3 bg-white mb-4">
+        "But people themselves alter so much that there is something new in them forever."
+        <br><footer class="text-xs font-bold">- Pride and Prejudice</footer>
+      </blockquote>
+      <div class="read-more-container">
+        <p class="text-white">Pride and Prejudice is <span class="read-dots read-dots-2">...</span>
+          <span class="more more-2 hidden">an 1813 novel of manners by English author Jane Austen. The novel follows the character development of Elizabeth Bennet, the protagonist of the book, who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.
+          </span> </p>
+        <button onclick="readFunction(2)" class="readBtn readBtn-2 bg-blue-600 text-white cursor-pointer px-3 py-2 rounded-full border-none transition duration-300 hover:bg-blue-500">Read More</button>
+      </div>
+      <a href="images/Pride_amp_amp_prejudice_by_Jane_Austen.epub" class="book__download-link block mx-auto mt-4 text-center text-decoration-none bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">Download EPUB</a>
+    </div>
+  </div>
+  
+  <div class="max-w-sm p-6 bg-blue-300 border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 mx-4 my-4">
+   
+  <div class="book__content">
+      <img src="images/download10.jpg" alt="Book Cover" class="lg:w-40 xl:w-40 md:w-36 w-32 rounded-3xl mx-auto object-cover rounded-t-md mb-4">
+      <blockquote class="book__quote text-sm text-gray-600 border-l-2 border-blue-900 pl-3 bg-white mb-4">
+        "It takes a great deal of bravery to stand up to our enemies, And to stand up to our friends."
+        <br><footer class="text-xs font-bold">- Harry Potter</footer>
+      </blockquote>
+      <div class="read-more-container">
+        <p class="text-white">Harry Potter is <span class="read-dots read-dots-3">...</span>
+          <span class="more more-3 hidden">a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.
+          </span> </p>
+        <button onclick="readFunction(3)" class="readBtn readBtn-3 bg-blue-600 text-white cursor-pointer px-3 py-2 rounded-full border-none transition duration-300 hover:bg-blue-500">Read More</button>
+      </div>
+      <a href="images/Harry_Potter_and_the_Sorcerer_39_s_Stone_Harry_Potter_1.epub" class="book__download-link block mx-auto mt-4 text-center text-decoration-none bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">Download EPUB</a>
+    </div>
+  </div></div></div></div>
+  <div class="text-center mt-12  pt-2">
+  <h2 class="text-3xl font-bold text-center mb-6  bg-blue-300 p-2 text-white"> Movies</h2>
+  <p><strong><i>Most of us find a comfort in watching  favorite movies. here are my comfort movies and tv shows to binge</i></strong></p>
+  
+  <div class=" flex flex-wrap mt-12">
+    
+
+    <div class=" w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4 sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0 pr-4 pb-4">
+      <iframe src="https://www.youtube.com/embed/5g1SLGRM6qU" frameborder="0" allowfullscreen class="w-full h-48"></iframe>
+      <div class="movie__content p-4 bg-blue-300">
+        <strong class="text-white text-lg xl:text-2xl lg:text-2xl">Garfield</strong>
+      </div>
+    </div>
+
+    <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4 sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0 pr-4 pb-4">
+      <iframe src="https://www.youtube.com/embed/IEEbUzffzrk" frameborder="0" allowfullscreen class="w-full h-48"></iframe>
+      <div class="p-4 bg-blue-300">
+        <strong class="text-white text-lg xl:text-2xl lg:text-2xl">Friends</strong>
+      </div>
+    </div>
+
+    <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4 sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0 pr-4 pb-4">
+      <iframe src="https://www.youtube.com/embed/s7EdQ4FqbhY" frameborder="0" allowfullscreen class="w-full h-48"></iframe>
+      <div class="p-4 bg-blue-300">
+        <strong class="text-white text-lg xl:text-2xl lg:text-2xl">Pulp Fiction</strong>
+      </div>
+    </div>
+
+    <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4 sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0 pr-4 pb-4">
+      <iframe src="https://www.youtube.com/embed/i3-jlhJgU9U" frameborder="0" allowfullscreen class="w-full h-48"></iframe>
+      <div class="p-4 bg-blue-300">
+        <strong class="text-white text-lg xl:text-2xl lg:text-2xl">Inception</strong>
+      </div>
+    </div>
+
+  </div></div>
+  <div class="mt-12 text-center  pt-2">
+    <h2 class="text-3xl font-bold text-center mb-6  bg-blue-300 p-2 text-white">Vacation</h2>
+    <p >
+      <strong
+        ><i
+          >Right here on this website, you can discover and explore
+          all the wonderful vacations I've had in the past. Take a
+          journey through my past adventures to get a glimpse into the
+          exciting places I have visited during my previous
+          vacations.</i
+        ></strong
+      >
+    </p>
+  
+  <div class="flex  justify-center space-x-12 text-center">
+ 
+
+    <div class="max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md mb-4">
+      <img src="images/download33.jpg" alt="kuriftu" class="w-full h-48 object-cover">
+      <div class="p-4 ">
+        <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Kuriftu Debre Zeit</h3>
+        <a href="https://www.google.com/maps/d/viewer?mid=1ZtyFDM9qgpwv9lYbBfaspnIj_-c&hl=en_US&ll=8.75263403182608%2C38.97754900000001&z=14" class="text-blue-500" target="_blank">
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Kuriftu Map
+        </a>
+      </div>
+    </div>
+
+    <div class=" max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md mb-4 ">
+      <img src="images/download22.jpg" alt="Haile resort" class="w-full h-48 object-cover">
+      <div class=" p-4">
+        <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Hawasa Haile Resort</h3>
+        <a href="https://www.google.com/maps/place/Haile+Resort+-+Hawassa/@7.0795884,38.4790939,15z/data=!4m2!3m1!1s0x0:0x521593a915fba3f1?sa=X&ved=2ahUKEwjl34qvod2CAxXG0qQKHbBqAuQQ_BJ6BAhIEAA&hl=en" class="text-blue-500" target="_blank">
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Haile Resort Map
+        </a>
+      </div>
+    </div>
+
+    <div class=" max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md mb-4">
+      <img src="images/download23.jpg" alt="Doho lodge" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Awash Doho Lodge</h3>
+        <a href="https://www.google.com/maps/place/Doho+Lodge/@9.1356297,40.0842751,15z/data=!4m2!3m1!1s0x0:0x4544b72f127af9ff?sa=X&ved=2ahUKEwjGrY36od2CAxXP6aQKHZr2BOYQ_BJ6BAhOEAA&hl=en" class="text-blue-500" target="_blank">
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Doho Lodge Map
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <div class="mt-8">
+    <p>
+      <strong
+        ><i
+          >I have a list of places that I really want to visit in the
+          future. These are special locations that I am excited to
+          explore & experience someday. I look forward to opportunity
+          of traveling to these places and make wonderful memories
+          there.</i
+        ></strong
+      >
+    </p>
+    
+    <div class="flex justify-center space-x-4 text-center">
+
+      <div class="vacation-card max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md">
+        <img src="images/download44.jpg" alt="Blue Nile Falls" class="w-full h-48 object-cover">
+        <div class="vacation-card__content p-4">
+          <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Blue Nile Falls</h3>
+          <a href="https://www.google.com/maps/place/Blue+Nile+Falls" class="text-blue-500" target="_blank">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Blue Nile Falls Map
+          </a>
+        </div>
+      </div>
+
+      <div class="vacation-card max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md">
+        <img src="images/best-places-to-visit-in-greece-s.webp" alt="Athens Greece" class="w-full h-48 object-cover">
+        <div class="vacation-card__content p-4">
+          <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Athens, Greece</h3>
+          <a href="https://www.google.com/maps/place/Athens,+Greece" class="text-blue-500" target="_blank">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Athens Map
+          </a>
+        </div>
+      </div>
+
+      <div class="vacation-card max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md">
+        <img src="images/licensed-image.jpg" alt="Venice Italy" class="w-full h-48 object-cover">
+        <div class="vacation-card__content p-4">
+          <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Venice, Italy</h3>
+          <a href="https://www.google.com/maps/place/Venice,+Metropolitan+City+of+Venice,+Italy" class="text-blue-500" target="_blank">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Venice Map
+          </a>
+        </div>
+      </div>
+
+      <div class="vacation-card max-w-xs bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md">
+        <img src="images/download99.jpg" alt="Nassau Bahamas" class="w-full h-48 object-cover">
+        <div class="vacation-card__content p-4">
+          <h3 class="text-white text-lg xl:text-2xl lg:text-2xl">Nassau, Bahamas</h3>
+          <a href="https://www.google.com/maps/place/Nassau,+The+Bahamas" class="text-blue-500" target="_blank">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Nassau Map
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div></div>
+  <div class="mt-12 text-center  pt-2">
+    <h2 class="text-3xl font-bold text-center mb-6  bg-blue-300 p-2 text-white">Volunteering</h2>
+              <p >
+                <strong
+                  ><i
+                    >Helping people and putting a smile on their faces is one of
+                    my favorite hobbies. Here are some places I volunteered in
+                    the past.</i
+                  ></strong
+                >
+              </p>
+    <div class=" flex justify-center space-x-24 flex-wrap">
+
+      <div class=" max-w-md bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md mb-4 md:mb-0">
+        <h3 class="text-white text-lg xl:text-2xl lg:text-2xl font-bold p-4 text-white text-center">Mekedonia</h3>
+        <div class=" p-4">
+          <h3 class="font-bold text-lg mb-2 text-center">Volunteering Experiences:</h3>
+          <ul class="list-disc list-inside">
+            <li><strong>Address:</strong> Bole sub city, 190190 Addis-Abeba</li>
+            <li><strong>Phone Number:</strong> +251962392154</li>
+            <li><strong>Website:</strong> <a href="http://www.mekedonia.com" class="text-blue-500">Visit Website</a></li>
+            <li><strong>Categories:</strong> Non-Governmental Organization (NGO)</li>
+            <li><strong>GPS Coordinates:</strong> 9.02147, 38.89231</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class=" max-w-md bg-blue-300 border border-gray-200 rounded-lg overflow-hidden shadow-md mb-4 md:mb-0">
+        <h3 class="text-white text-lg xl:text-2xl lg:text-2xl font-bold p-4 text-white text-center">Hope for Children</h3>
+        <div class=" p-4">
+          <h3 class="font-bold text-lg mb-2 text-center">Volunteering Experiences:</h3>
+          <ul class="list-disc list-inside">
+            <li><strong>Address:</strong> Addis Ababa, Ethiopia</li>
+            <li><strong>Phone Number:</strong> 251-111-22 26 21</li>
+            <li><strong>Website:</strong> <a href="https://www.hopeforchildrenethiopia.org/" class="text-blue-500">Visit Website</a></li>
+            <li><strong>Categories:</strong> Non-Governmental Organization (NGO)</li>
+            <li><strong>GPS Coordinates:</strong> 9.12290, 36.02110</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="mt-4 text-center pt-2">
+    <p class="text-3xl font-bold text-center mb-6  bg-blue-300 p-2 text-white">Sport</p>
+    <div class="card-content text-center max-w-md mx-auto bg-blue-300 p-8 rounded-md shadow-md">
+      <h3 class="text-white text-lg xl:text-2xl lg:text-2xl font-bold p-4 text-white text-center">
+        Basketball
+      </h3>
+      <figure class="mb-4">
+        <img src="images/downloadd.jpg" alt="Basketball Image" class="w-full h-48 object-cover rounded-md">
+      </figure>
+      <p class="mb-4 text-gray-700">
+        Basketball is not just a game; it's a way of life. Whether I'm shooting hoops on the court or cheering for my favorite team, the thrill of the game never fails to excite me.
+      </p>
+      <div class="mb-4">
+        <p>
+          <strong class="text-blue-500">Favorite Team:</strong> Los Angeles Lakers
+        </p>
+        <p>
+          <strong class="text-blue-500">Favorite Player:</strong> LeBron James
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer  bottom-0 left-0 right-0 text-center text-white bg-gray-800 p-4">
+    <p class="footer__text">&copy; 2023 Tsion Melese. All rights reserved.</p>
+</footer>
+<script src="Js/src.js"></script>
+</body>
+</html>
