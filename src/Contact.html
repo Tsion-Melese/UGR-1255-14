@@ -1,48 +1,96 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
-
 <head>
-    <meta charset="UTF-8">
-    <title>Tsion Melese Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tsion Melese Portfolio</title>
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
 </head>
+<body class="bg-danger-subtle">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Screenshot2023-11-28172206.png" class="me-2" height="40" alt="logo" loading="lazy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cv.html">Cv</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<body>
+<main class="container mt-5">
+    <h1 class="text-center text-dark">Contact Me</h1>
+    <div class="row justify-content-center mt-4">
+        <div class="col-lg-6 mb-4">
+            <div class="bg-transparent p-4 rounded shadow-lg">
+                <img src="images/laptop-cup-black-coffee-blue-600nw-509487508.jpg" alt="contact me" class="mb-4 rounded-md w-100">
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav> 
-        
-    </header>
-        <main>
-            <h1>Contact Me</h1>
-            <img src="images/contact-me-card-23929753.webp" alt="contact me" height="250" width="300">
+                <ul class="list-unstyled">
+                    <li class="mb-2 fw-bold"><span class="text-info">Email:</span> <a href="mailto:Tsionmelese82@hmail.com" class="text-decoration-none">Tsionmelese82@gmail.com</a></li>
+                    <li class="mb-2 text-dark fw-bold"><span class="text-info">Phone:</span> <span >+251945321355</span></li>
+                    <li class="mb-2 text-dark fw-bold"><span class="text-info">Address:</span> <span >Addis Ababa, Ethiopia</span></li>
+                </ul>
 
-            <ul>
-                <li>Email: <a href="mailto:Tsionmekese82@hmail.com">Tsionmelese82@gmail.com</a></li>
-                <li>Phone: +251945321355</li>
-                <li>Address: Addis Ababa, Ethiopia</li>
-            </ul>
-        
-            <h2>Social Media</h2>
-            <ul>
-                <li>GitHub: <a href="https://github.com/Tsion" target="_blank">github.com/Tsion</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/Tsion" target="_blank">linkedin.com/in/Tsion</a></li>
-                
-            </ul>
-        </main>
-        <footer>
-            <p>&copy; 2023 Tsion Melese. All rights reserved.</p>
-        </footer>
-        </body>
-        
-        </html>
+                <h2 class="mt-4 fw-bold mb-4 text-center text-info font-monospace">Social Media</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2 text-dark fw-bold"><span class="text-info">GitHub:</span> <a href="https://github.com/Tsion"  class="text-decoration-none ">github.com/Tsion</a></li>
+                    <li class="mb-2 text-dark fw-bold"><span class="text-info">LinkedIn:</span> <a href="https://www.linkedin.com/in/Tsion" class="text-decoration-none">linkedin.com/in/Tsion</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mt-5 ">
+            <section class="bg-info p-4 rounded shadow-lg">
+                <h1 class="text-white fw-bold mb-4 text-center font-monospace">Send me an email</h1>
+                <p class="text-danger lead fw-bold">Feel free to send a message about anything you might need help with.</p>
+                <form id="contact-form" class="mt-4">
+                    <label for="Contact__name" class="form-label mb-2 text-white font-monospace">Name</label>
+                    <input type="text" id="Contact__name" placeholder="Full Name" class="form-control mb-4 bg-danger-subtle">
+
+                    <label for="Contact__email" class="form-label mb-2 text-white font-monospace">Email</label>
+                    <input type="email" id="Contact__email" placeholder="Email" class="form-control mb-4 bg-danger-subtle">
+
+                    <label for="Contact__message" class="form-label mb-2 text-white font-monospace">Message</label>
+                    <textarea name="message" id="Contact__message" placeholder="Message" class="form-control mb-4 bg-danger-subtle"></textarea>
+
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</main>
+<footer class="text-center ">
+    <p >&copy; 2023 Tsion Melese. All rights reserved.</p>
+</footer>
+<script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+

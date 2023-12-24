@@ -1,119 +1,237 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Tsion Melese Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tsion Melese Portfolio</title>
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
 </head>
+<body class="bg-danger-subtle">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Screenshot2023-11-28172206.png" class="me-2" height="40" alt="logo" loading="lazy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cv.html">Cv</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    
-    <a href="#Edu">Education ,</a>
-    <a href="#Elective"> Electives ,</a>
-    <a href="#Achievement">Achievements</a></header>
-    <main>
-        <h1> Education</h1>
-        <section id="Edu">
-            <h2>Education</h2>
-            <section>
-            <img src="images/download(3).jpg" alt="Omega school" width="200" height="150">
-            <h3>Primary Education: Omega Primary School, Addis Ababa, Ethiopia</h3>
-            <ul>
-            <li><strong>Graduation Year:</strong><time datetime="2017">2017 </time>GC </li>
-            </ul>
-            <h3>Secondary Education: Omega Secondary School, Addis Ababa, Ethiopia</h3>
-            <ul>
-                <li><strong>Graduation Year:</strong> <time datetime="2021">2021 </time>GC</li>
-            </ul>
-            </section>
-            <section>
-            <img src="images/download(4).jpg" alt="Omega school" width="200" height="150">
-            <h3>Current Univeristy: <abbr title="AAiT">Addis Ababa Institute of Technology</abbr> </h3>
-            <ul>
-                <li><strong>Major:</strong> Software Engineering</li>
-                <li><strong>Expected Graduation Date:</strong><time datetime="2025">2025 </time>GC </li>
-            </ul>
-            </section>
-       </section>
-       <section id="Elective">
-        <h2>Electives</h2>
+<main class="container mx-auto p-4">
+    <div class="row">
+        <div class="col-lg-6 bg-info  p-4 mt-4">
+            <div class="text-center ">
+                <div>
+                  <div >
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h3 class="p-2 rounded-end bg-white text-info ">Education</h3>
+                </div>
+                <div class="card bg-transparent mt-1 lead">
+                    <div class="card-body">
+                      <div class="p-2 fw-bold text-white fs-4">2005-2017</div>
+                      <div>
+                        <img class="img-fluid w-25 rounded" src="images/download(3).jpg" alt="Omega Primary School">
+                        <p class="lead"><b class="text-white fw-bold font-monospace">Primary Education:</b> Omega Primary School, <abbr title="Addis Ababa">AA</abbr></p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-white font-monospace">Graduation Year:</em><time datetime="2017" >2017</time> GC</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card mt-3 bg-transparent">
+                    <div class="card-body">
+                      <div class="p-2 fw-bold text-white fs-4">2018-2021</div>
+                      <div>
+                        <img class="img-fluid w-25 rounded" src="images/download(3).jpg" alt="Omega Secondary School">
+                        <p class="lead"><b class="text-white fw-bold font-monospace">Secondary Education:</b> Omega Secondary School, <abbr title="Addis Ababa">AA</abbr></p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-white font-monospace">Graduation Year:</em><time datetime="2021" >2021</time> GC</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card mt-3 bg-transparent">
+                    <div class="card-body">
+                      <div class="p-2 fw-bold text-white fs-4">2022-present</div>
+                      <div>
+                        <img class="img-fluid w-50 rounded mb-4" src="images/download(4).jpg" alt="Addis Ababa Institute of Technology">
+                        <p class="lead"><b class="text-white fw-bold font-monospace">University:</b> <abbr title="Addis Ababa Institute of Technology" class="text-decoration-none">Addis Ababa Institute of Technology</abbr></p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-white font-monospace">Major:</em> Software Engineering</li>
+                          <li class="lead"><em class="text-white font-monospace">Expected Graduation Date:</em><time datetime="2025" >2025</time> GC</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
         
-            <div><ul>
-                <li><strong>Hackathon</strong>
-        <ul>
-            <li><img src= "images/1630626163261.jpg" alt="Bits College" width="200" height="150"> </li>
-            <li><strong>Institute:</strong> Bits College</li>
-            <li><strong>Completion Year:</strong> <time datetime="2023">2023 </time>GC</li>
-        </ul> </li> </ul></div>
-        <div>
-            <ul>
-            <li><strong>Photography</strong>
-        <ul>
-            <li><img src="images/1634494196-52-tom-videographer-photography-training-center.jpg" alt="Tom training center" width="200" height="150">  </li>
-            <li><strong>Institute:</strong> Tom training center, Addis Abeba ,Ethiopia</li>
-            <li><strong>Completion Year:</strong> 2022</li>
-        </ul></li> </ul></div>
-        <div><ul>
-
-        <li><strong>Graphics Design</strong>
-        <ul>
-            <li><img src="images/download(5).jpg" alt="Graphics design" width="200" height="150">  </li>
-            <li><strong>Institute:</strong> Inlight Acadamy, Addis Abeba, Ethiopia</li>
-            <li><strong>Completion Year:</strong> <time datetime="2021">2021 </time>GC</li>
-        </ul></li> </ul></div>
-        
-    
-       </section>
-       <section id="Achievement">
-        <h2>Achievements in Education</h2>
+              <div class="text-center mt-5"> 
+                <div >
+                  <div>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                  </div>
+                  <h3 class="p-2 rounded-end bg-white text-info mt-4">Electives</h3>
+                </div>
+                <div class="card bg-transparent">
+                    <div class="card-body">
+                      <div datetime="2023" class="p-2 fw-bold text-black">2023 GC</div>
+                      <div>
+                        <img class="img-fluid w-25 rounded mb-4" src="images/1630626163261.jpg" alt="Bits College">
+                        <p class="lead"><b class="text-black fw-bold font-monospace">Institute:</b> Bits College</p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-secondary font-monospace">Course name:</em> Hackathon</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card mt-4 bg-transparent lead">
+                    <div class="card-body">
+                      <div datetime="2022" class="p-2 fw-bold text-black">2022 GC</div>
+                      <div>
+                        <img class="img-fluid w-50 rounded mb-4" src="images/1634494196-52-tom-videographer-photography-training-center.jpg" alt="Tom Training Center">
+                        <p class="lead"><b class="text-black fw-bold font-monospace">Institute:</b> Tom Training Center,<abbr title="Addis Ababa">AA</abbr></p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-secondary font-monospace">Course name:</em> Photography</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card mt-4 bg-transparent">
+                    <div class="card-body">
+                      <div datetime="2021" class="p-2 fw-bold text-black">2021 GC</div>
+                      <div>
+                        <img class="img-fluid w-25 rounded mb-4" src="images/download(5).jpg" alt="Inlight Academy">
+                        <p class="lead"><b class="text-black fw-bold font-monospace">Institute:</b> Inlight Academy,<abbr title="Addis Ababa">AA</abbr></p>
+                        <ul class="list-unstyled">
+                          <li class="lead"><em class="text-secondary font-monospace">Course name:</em> Graphics Design</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+             
+                
+              </div>
+            </div>
        
-       <div>
-       <ul>
-        <li><strong>Innovation and Creativity Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Mobile robot</li>
-            <li><strong>Year:</strong><time datetime="2019">2019 </time>GC </li>
-        </ul></li></ul></div>
-       <div>
-        <ul>
 
-        <li><strong>Academic Excellence Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Maintain High Grades</li>
-            <li><strong>Year:</strong> <time datetime="2015">2015 </time>GC, <time datetime="2019">2017 </time>GC, <time datetime="2018">2018 </time>GC</li>
-        </ul></li></ul></div>
-        <div>
-            <ul>
-        <li><strong>Extracurricular Achievement Awards</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Debate</li>
-            <li><strong>Year:</strong><time datetime="2018">2018 </time>GC </li>
-        </ul></li></ul></div>
-        <div>
-            <ul>
-        <li><strong>Artistic Achievements Awards:</strong>
-        <ul>
-            <li><strong>Awarded for:</strong> Photography</li>
-            <li><strong>Year:</strong><time datetime="2022">2022 </time>GC </li>
-        </ul></li></ul></div>
-    
-       </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Tsion Melese. All rights reserved.</p>
-    </footer>
+        <div class="col-lg-6 bg-primary bg-gradient bg-opacity-25 mt-4 ">
+            <h3 class="p-2 rounded-end bg-white text-primary text-opacity-50 mt-4 text-center">Achievements</h3>
+            <div class="text-center lead mt-3">
+                <div class="card bg-transparent lead">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-primary"><i class="fas fa-award"></i> Innovation and Creativity Awards</h5>
+                      <ul class="list-unstyled">
+                        <li class="mt-3"><strong class="fw-bold text-white">Awarded for:</strong> Mobile robot</li>
+                        <li class="mt-3"><strong class="fw-bold text-white">Year:</strong><time id="Year6" datetime="2019">2019 </time>GC</li>
+                      </ul>
+                    </div>
+                  </div>
+                
+                  <div class="card bg-transparent lead mt-3">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-primary"><i class="fas fa-graduation-cap"></i> Academic Excellence Awards</h5>
+                      <ul class="list-unstyled">
+                        <li class="mt-3"><strong class="fw-bold text-white">Awarded for:</strong> Maintain High Grades</li>
+                        <li class="mt-3"><strong class="fw-bold text-white">Year:</strong> <time datetime="2015">2015 </time>GC, <time datetime="2017">2017 </time>GC, <time datetime="2018">2018 </time>GC</li>
+                      </ul>
+                    </div>
+                  </div>
+                
+                  <div class="card bg-transparent lead mt-3">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-primary"><i class="fas fa-trophy"></i> Extracurricular Activity Awards</h5>
+                      <ul class="list-unstyled">
+                        <li class="m3"><strong class="fw-bold text-white">Awarded for:</strong> Debate</li>
+                        <li class="mt-3"><strong class="fw-bold text-white">Year:</strong><time datetime="2018">2018 </time>GC</li>
+                      </ul>
+                    </div>
+                  </div>
+                
+                  <div class="card bg-transparent lead mt-3">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-primary"><i class="fas fa-paint-brush"></i> Artistic Achievements Awards</h5>
+                      <ul class="list-unstyled">
+                        <li class="mt-3"><strong class="fw-bold text-white">Awarded for:</strong> Photography</li>
+                        <li class="mt-3"><strong class="fw-bold text-white">Year:</strong><time  datetime="2022">2022 </time>GC</li>
+                      </ul>
+                    </div></div>
+                <img class="w-25 mt-3" src="images/28619063_780281788843614_7840007188793560309_o (1).jpg" alt="awards">
+              
+        
+              <div class="projects text-center mt-3">
+                <div >
+                  <div class="projects__logo">
+                    <i class="fas fa-cogs"></i>
+                  </div>
+                  <h3 class="p-2 rounded-end bg-white text-primary text-opacity-50 mt-4">Projects</h3>
+                  <img class="w-24 h-24 mx-auto mt-4" src="images/prodownload.png" alt="awards">
+              
+                </div>
+                <div class="card bg-transparent text-white p-4 mb-3 mt-4">
+                    <div class="p-2 fs-4 font-monospace text-primary">2023 GC</div>
+                    <div class="mt-3">
+                    <div class="ml-4">
+                       <p class="text-black"><b class="p-2 fs-4">Project:</b> Mobile App Development</p>
+                       <ul class="list-unstyled">
+                            <li class="mt-3"><em class="font-bold text-secondary">Description:</em> Designed mobile application</li>
+                            <li class="mt-3"><em class="font-bold text-secondary">Expected Completion Date:</em> <time datetime="2024-09-30">September 30, 24</time> GC</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+             <div class="card bg-transparent text-white p-4 mb-3">
+                <div class="p-2 font-monospace fs-4 text-primary">2022 GC</div>
+                  <div class="mt-3">
+                   <div class="ml-4">
+                   <p class="text-black"><b class="p-2 fs-4">Project:</b> Graphics Design</p>
+                   <ul class="list-unstyled">
+                      <li class="mt-3"><em class="font-bold text-secondary">Description:</em> Designed graphics for company</li>
+                      <li class="mt-3"><em class="font-bold text-secondary">Completion Date:</em> <time datetime="2022-10-10">October 10, 21</time> GC</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+</main>
+<footer class="text-center ">
+    <p >&copy; 2023 Tsion Melese. All rights reserved.</p>
+</footer>
+<script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
